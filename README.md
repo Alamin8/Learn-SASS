@@ -15,6 +15,16 @@
 
     
     Difference: CSS element id can be repeat many time but SASS not to need Repeat. SASS use nesting style like HTML>body>ul>li.
-        
+
+    * Feature of Sass Language:
+        i. Variables
+        ii. Nesting
+        iii. Partials & Imports
+        iv. Mixins
+        v. Extends
+        vi. Operators
+        vii. Functions
+        viii. Conditional Directives
+        ix. Loops
 
 
