@@ -35,5 +35,10 @@
   
   ![three type of syntex](https://user-images.githubusercontent.com/76748668/117567302-8cb70e00-b0dd-11eb-9c55-b81862ca18cf.jpg)
 
+  Note: For best practicing .SCSS syntax is the best.
 
-
+02. SASS Variable --->
+  
+     sass use variable in uses to stor a style and place it in various place like Javascript or PHP variables.
+     
+  ![SASS Variable](https://user-images.githubusercontent.com/76748668/117567533-72c9fb00-b0de-11eb-823a-bcb5626d3162.jpg)
