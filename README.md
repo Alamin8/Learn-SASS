@@ -9,12 +9,17 @@
    * Sass Compailer: 'Koala' is the most powerful Sass compailer.
 
    * Difference between CSS and SASS File 
-        CSS Code-->
-
+        CSS Code--> 
+        
+        ![CSS file formet](https://user-images.githubusercontent.com/76748668/117567007-c129ca80-b0db-11eb-8431-a0ec8030391e.jpg)
+        
         SASS Code-->
-
+        
+        ![SASS file formet](https://user-images.githubusercontent.com/76748668/117567038-e6b6d400-b0db-11eb-863d-246eada291b6.jpg)
+        
     
     Difference: CSS element id can be repeat many time but SASS not to need Repeat. SASS use nesting style like HTML>body>ul>li.
         
+
 
 
