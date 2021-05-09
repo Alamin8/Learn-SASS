@@ -1,0 +1,6 @@
+// it is a partials file. Partials files means a sub sass file that contain specefic style or data for an specific file . And patials file will be must import in Main sass file otherwise it don't work
+// partials file name formet: _partials.scss
+// partials file import form in main sass file: @import "partials";
+
+$lightGrayColor:#5d5d5d;
+$textColor:white;

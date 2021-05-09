@@ -1,46 +1,11 @@
+// Patials file import as a variable file
+@import "variables";
+
 body {
     margin: 0;
     padding: 0;
 }
-header {
-    width: 100%;
-    .title {
-        background-color: #5d5d5d;
-        padding: 5px 10px;
 
-        h1{
-            color: #fff;
-            text-align: center;
-        }
-    }
-    .navbar{
-        float: right;
-        border-bottom: 2px solid #5d5d5d;
-        border-left: 2px solid #5d5d5d;
-
-        ul{
-            list-style: none;
-            margin-right: 50px;
-
-            li{
-                display: inline;
-                padding: 10px;
-                margin: 20px;
-
-                a{
-                    text-decoration: none;
-                    color: #000000;
-                    font-size: 18px;
-                    font-weight: 500;
-                    padding: 7px 18px;
-                    border-radius: 5px;
-                    &:hover{
-                        background-color: tomato;
-                        color: #fff;
-                    }
-                }
-            }
-        }
-    }
-}
+@import "header"; //where we import patials file , in that that place we must import it. Not import before or after
+@import "applyMixins";
 

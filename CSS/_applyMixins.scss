@@ -1,0 +1,58 @@
+//Mixin is just like a callback function with executing separete value or fixed value.
+// Mixin Create formet: @mixin anyName($value){styleName:$value}
+// Call a mixins formet: @include MixinsNameWhichExecute(pass the style value ex-15px);
+
+//type-1: fixed value mixins create
+@mixin padding {
+    padding: 15px;
+}
+
+//type-2: one value use in many place
+@mixin marginTopLeft($value: 20px) {
+    //20px is default value. if we don't provide any value in this mixin, it use 20px by default
+    margin-top: $value;
+    margin-left: $value;
+}
+
+//type-3: one value use in one place
+@mixin backgroundColor($bg) {
+    background-color: $bg;
+}
+
+//type-4: many value use in many place
+@mixin marginBottom-borderRadious-width($margin, $borderRadious, $width) {
+    margin-bottom: $margin;
+    border-radius: $borderRadious;
+    width: $width;
+}
+
+// Html content style
+#mixins-div {
+    @include marginTopLeft(50px);
+    #div1 {
+        @include marginBottom-borderRadious-width(30px, 10px, 400px);
+        @include backgroundColor(red);
+        @include padding();
+        p {
+            color: $textColor; //color from variable scss file
+        }
+    }
+
+    #div2 {
+        @include marginBottom-borderRadious-width(30px, 20px, 600px);
+        @include backgroundColor(forestgreen);
+        @include padding();
+        p {
+            color: $textColor; //color from variable scss file
+        }
+    }
+
+    #div3 {
+        @include marginBottom-borderRadious-width(30px, 30px, 800px);
+        @include backgroundColor(blueviolet);
+        @include padding();
+        p {
+            color: $textColor; //color from variable scss file
+        }
+    }
+}
