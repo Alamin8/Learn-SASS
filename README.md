@@ -31,5 +31,9 @@
         viii. Conditional Directives
         ix. Loops
 
+  * CSS VS SCSS VS SASS Syntax
+  
+  ![three type of syntex](https://user-images.githubusercontent.com/76748668/117567302-8cb70e00-b0dd-11eb-9c55-b81862ca18cf.jpg)
+
 
 
