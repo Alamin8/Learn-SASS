@@ -43,3 +43,16 @@
      sass use variable in uses to stor a style and place it in various place like Javascript or PHP variables.
      
   ![SASS Variable](https://user-images.githubusercontent.com/76748668/117567533-72c9fb00-b0de-11eb-823a-bcb5626d3162.jpg)
+
+03. Nesting
+
+![05  SASS Nesting](https://user-images.githubusercontent.com/76748668/117570691-1f12de00-b0ed-11eb-9b38-b6eed6a3437a.jpg)
+
+04. Partials and imports
+
+![06  Patials and imports](https://user-images.githubusercontent.com/76748668/117570718-4c5f8c00-b0ed-11eb-87ee-930fabf30836.jpg)
+
+05. Mixins
+ 
+![07  Mixins](https://user-images.githubusercontent.com/76748668/117570728-5e412f00-b0ed-11eb-95b7-ede987f9b409.jpg)
+
