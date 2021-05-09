@@ -10,30 +10,9 @@
 
    * Difference between CSS and SASS File 
         CSS Code-->
-        header {
-        width: 100%; 
-        }
-        header .title {
-            background-color: #5d5d5d;
-            padding: 5px 10px; 
-        }
-        header .title h1 {
-            color: #fff;
-            text-align: center; 
-        }
 
         SASS Code-->
-        header {
-        width: 100%;
-        .title {
-            background-color: #5d5d5d;
-            padding: 5px 10px;
-            h1{
-            color: #fff;
-            text-align: center;
-            }
-        }
-        }
+
     
     Difference: CSS element id can be repeat many time but SASS not to need Repeat. SASS use nesting style like HTML>body>ul>li.
         
